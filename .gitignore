@@ -1,0 +1,29 @@
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# API secrets
+.streamlit/secrets.toml
+
+# Training datasets
+dataset/
+original_dataset/
+packwise_dataset/
+contamination_data/
+contamination_dataset/
+
+# Local database
+recynexa_history.db
+
+# Test images
+Test*.jpeg
+con_test*.png
+test*.jpeg
+test*.jpg
+contamination_sample.jpg
+packwise_sample.jpg
+
+# Backup files
+app_backup.py
